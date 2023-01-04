@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Calcular suma</h1>
+    <!-- Un sencillo formulario con campos requeridos -->
+    <form>
+        <label for="num1">Número A 
+            <input type="number" id="num1" required autofocus>
+        </label>
+
+        <label for="num2">Número B 
+            <input type="number" id="num2" required autofocus>
+        </label>
+
+        <button type="button" id="sumar">Sumar</button>
+    </form>
+
+
+    <div class="divResultado" id="probarRes">
+        <p>El resultado es: <span id="resultadoSuma"></span></p>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>

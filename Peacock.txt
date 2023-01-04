@@ -1,0 +1,1 @@
+cree un nuevo Workspace para tener otro color de Vs code, lo agrego solo dentro de la carpeta y recien ahi funcionó la app.
