@@ -1,1 +1,7 @@
 cree un nuevo Workspace para tener otro color de Vs code, lo agrego solo dentro de la carpeta y recien ahi funcionó la app.
+
+depues de parir un rato encontré que usando a menos un workspace puedo cambiar el color de varias ventanas
+
+usando la palabra entera peacock:  (mas esos 2 puntos me da todas la s opciones... ligthen darken etc)
+
+tambien enter a color y elijo yo
