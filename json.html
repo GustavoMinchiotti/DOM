@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON y API`s</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+    <h2>Creating an Object from a JSON String</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        const txt = '{"name":"John", "age":30, "city":"New York"}' // este es formato JSON no es igual exactamente a un objeto en JS
+        const obj = JSON.parse(txt); // lo convierto en JS 
+        document.getElementById("demo").innerHTML = obj.name + ", " + obj.age; // lo muestro en el html concatenado
+    </script>
+
+    <script> //? si lo corro en la consola con f12 me trae los datos a la consola
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+            .then(response => response.json())
+            .then(json => console.log(json))
+    </script>
+
+</body>
+
+</html>
+
+<!--
+
+https://jsonplaceholder.typicode.com/
+
+para consumir fake api
+-->

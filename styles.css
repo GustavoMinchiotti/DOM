@@ -40,3 +40,8 @@ span {
     padding: 5px;
     background-color: rgb(167, 167, 167);
 }
+
+/* aplicado a la hoja de JSON*/
+#demo {
+  margin-left: 2rem;
+}

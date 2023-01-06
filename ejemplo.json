@@ -1,0 +1,11 @@
+[
+  { "name": "John", "age": 30, "city": "New York" } ,
+
+  {
+    "nombre": "valor",
+    "cosa": "valor de la cosa",
+    "dia": "lunes",
+    "moneda": "dólar",
+    "material": "madera"
+  }
+]
